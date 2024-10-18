@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.7;
+    background-color:rgba(255, 166, 0, 0.63);
+}
+.header2{
+    background-color: black;
+    
+    padding: 40px 10%;
+}
+header{
+    
+    color:crimson;
+    text-align: center;
+    padding: 90px 10%;
+}
+.header h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    background-color:black;
+    text-align: left;
+    
+    
+
+
+}
+
+.header p{
+    font-size: 1.2rem;
+    
+    border-style:outset;
+    color: darkgrey;
+    background-color: brown;
+}
+.buttom{
+    border-radius: 10px;
+    text-align: center;
+    background-color: beige;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+.box{
+    background-color:dimgray;
+    padding: 20px;
+    margin: 10px;
+    width: 60%;
+    text-align: justify;
+   
+}
+.box p{
+    font-size: 20px;
+}
+.footer{
+    background-color:rgb(158, 150, 147);
+    color: bisque;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.paralaxe1{
+    background-image: url(https://projetocolabora.com.br/wp-content/uploads/2021/08/cuba1-scaled.jpg);
+}
+.paralaxe2{
+    background-image: url(https://portaldozacarias.com.br/site/arquivos/imagens/noticias/2024/10/grande/20241016082055whatsapp_image_2024-10-16_at_08.19.00.jpeg);
+}
+.paralaxe3{
+    background-image: url();
+}
+.paralaxe{
+    height: 100vh;   
+    background-attachment: fixed; 
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
